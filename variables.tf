@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "project_name" {
   type        = string
   description = "Name of the project"
-  default     = "zomato"
+  default     = "git-redmi"
 }
 
 variable "project_env" {
