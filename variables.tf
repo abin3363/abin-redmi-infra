@@ -27,3 +27,15 @@ variable "project_owner" {
   description = "Owner of the project"
   default     = "abin"
 }
+
+variable "hosted_zone_name" {
+  type        = string
+  description = "domain name"
+  default     = "abinsunny.online"
+}
+
+variable "hostname" {
+  type        = string
+  description = "hostname"
+  default     = "git-remi"
+}
